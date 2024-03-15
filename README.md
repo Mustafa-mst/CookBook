@@ -2,15 +2,15 @@
 CookBook aims to learn about different food cultures, save your own recipes and get random recipes through the application.
 ## Used in the project
 
--Mvvm
--Retrofit(For Https request)
--Hilt(Dagger)
--Room
--DataBinding & ViewBinding
--Coroutine
--Firebase(Auth)
--Youtube Api
--Navigation
+- Mvvm
+- Retrofit(For Https request)
+- Hilt(Dagger)
+- Room
+- DataBinding & ViewBinding
+- Coroutine
+- Firebase(Auth)
+- Youtube Api
+- Navigation
 
 
  ## Video
