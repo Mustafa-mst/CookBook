@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.elifgulay.cookbook.ui.fragment.bottomNavFragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/homeToDetail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.elifgulay.cookbook.ui.fragment.bottomNavFragments.FavoriteFragment"
+        android:label="FavoriteFragment" >
+        <action
+            android:id="@+id/favoriteToDetail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myRecipeFragment"
+        android:name="com.elifgulay.cookbook.ui.fragment.bottomNavFragments.MyRecipeFragment"
+        android:label="MyRecipeFragment" >
+        <action
+            android:id="@+id/action_myRecipeFragment_to_myRecipeDetail"
+            app:destination="@id/myRecipeDetail" />
+        <action
+            android:id="@+id/myRecipesToAdd"
+            app:destination="@id/recipeAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.elifgulay.cookbook.ui.fragment.helperFragments.DetailFragment"
+        android:label="DetailFragment" >
+        <action
+            android:id="@+id/detailToYoutube"
+            app:destination="@id/youtubeFragment" />
+        <argument
+            android:name="mealName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/myRecipeDetail"
+        android:name="com.elifgulay.cookbook.ui.fragment.helperFragments.MyRecipeDetail"
+        android:label="MyRecipeDetail" >
+        <argument
+            android:name="myRecipe"
+            app:argType="com.elifgulay.cookbook.data.entity.MyRecipeProp" />
+    </fragment>
+    <dialog
+        android:id="@+id/youtubeFragment"
+        android:name="com.elifgulay.cookbook.ui.fragment.helperFragments.YoutubeFragment"
+        android:label="YoutubeFragment" >
+        <argument
+            android:name="youtubeId"
+            app:argType="string" />
+    </dialog>
+    <fragment
+        android:id="@+id/recipeAddFragment"
+        android:name="com.elifgulay.cookbook.ui.fragment.helperFragments.RecipeAddFragment"
+        android:label="RecipeAddFragment" >
+        <action
+            android:id="@+id/recipeAddToMyRecipe"
+            app:destination="@id/myRecipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/randomFragment"
+        android:name="com.elifgulay.cookbook.ui.fragment.bottomNavFragments.RandomFragment"
+        android:label="RandomFragment" >
+        <action
+            android:id="@+id/randomToYoutube"
+            app:destination="@id/youtubeFragment" />
+    </fragment>
+</navigation>

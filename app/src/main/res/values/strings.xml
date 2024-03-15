@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CookBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="greeting_message_01">"Hello, %s"</string>
+    <string name="Ingredients">"%s%n,
+        %s%n,%s%n,%s%n,%s%n,%s%n,%s"</string>
+    <string name="Measure">"%s%n,%s%n,%s%n,%s%n,%s%n,%s%n,%s"</string>
+    <string name="recipe_name">"Recipe Name"</string>
+    <string name="measure">"Measurements"</string>
+    <string name="instruction">"Instructions"</string>
+    <string name="enter_recipe_name">"Enter Recipe Name"</string>
+    <string name="enter_ingredients">"Enter Ingredients"</string>
+    <string name="enter_measure">"Enter Measure"</string>
+    <string name="enter_instruction">"Enter Instruction"</string>
+    <string name="greeting_message_05">"Hello"</string>
+    <string name="greeting_message_02">"Welcome back"</string>
+    <string name="greeting_message_03">"Welcome to"</string>
+    <string name="greeting_message_04">"Cook Book"</string>
+    <string name="enter_email">"Enter Email"</string>
+    <string name="enter_password">"Enter Password"</string>
+    <string name="enter_repassword">"Enter Password Again"</string>
+    <string name="password_again">"Password Again"</string>
+    <string name="categories">"Categories"</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="forgot_password">"Forgot Password?"</string>
+    <string name="forgotBtn">Send Email</string>
+    <string name="sign_in">"Sign In"</string>
+    <string name="email">"Email"</string>
+    <string name="password">"Password"</string>
+    <string name="name">"Name"</string>
+    <string name="homeTextMessage">What are you cooking today?</string>
+    <string name="emailadress">"@gmail.com"</string>
+    <string name="create_account">"Create an account"</string>
+    <string name="reset_password">"Reset password"</string>
+    <string name="reset_password_sub">"Please enter your e-mail address. You can reset your password from the link sent to your e-mail."</string>
+    <string name="create_account_info">"Let’s help you set up your account,\nit won’t take long."</string>
+    <string name="account_question">"Don't have an account?"</string>
+    <string name="sign_up">"Sign up"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

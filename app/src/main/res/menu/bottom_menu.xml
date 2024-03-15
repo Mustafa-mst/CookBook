@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/homeFragment" android:icon="@drawable/home_bottom" android:title="Home" app:showAsAction="always"></item>
+<item android:id="@+id/favoriteFragment" android:icon="@drawable/favorite_bottom" android:title="Favorites" app:showAsAction="always"></item>
+<item android:id="@+id/myRecipeFragment" android:icon="@drawable/bookmark_bottom" android:title="My Recipes" app:showAsAction="always"></item>
+<item android:id="@+id/randomFragment" android:icon="@drawable/dice_bottom"  android:title="Random" app:showAsAction="always"></item>
+</menu>

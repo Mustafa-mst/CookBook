@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "267330643072",
+    "project_id": "cookbook-dd0c4",
+    "storage_bucket": "cookbook-dd0c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267330643072:android:a5bde230d8363c32b1f265",
+        "android_client_info": {
+          "package_name": "com.elifgulay.cookbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOSMKdwxSTS43VhkbTJjX3Iq29x0ir4Ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
